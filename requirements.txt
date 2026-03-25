@@ -1,0 +1,17 @@
+# requirements.txt — Super Fast AI Chatbot (FIXED VERSION)
+# Install with: pip install -r requirements.txt
+
+# Core Dependencies
+groq>=0.9.0              # Groq LLM client
+python-dotenv>=1.0.0     # Load environment variables
+requests>=2.31.0         # HTTP client
+certifi>=2024.0.0        # SSL certificates
+
+# Terminal Version
+colorama>=0.4.6          # Colored terminal output
+
+# Web Interface (Streamlit)
+streamlit>=1.32.0        # Web app framework
+
+# Local Image Generation (NEW - Always works!)
+pillow>=10.0.0           # Create placeholder images
